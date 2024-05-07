@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "ContIndex";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Cont
+        act.js"></script>
+
+
+<Lable><h4><b><u><font color="Green"> CONTACT FORM :</font></u></b></h4></Lable></br>
+
+<input type="hidden" id="hdnID" />
+
+<input type="text" id="txtName" placeholder="Enter Name" style="width:500px" /></br></br>
+
+<input type="number" id="txtMobile_No" placeholder="Enter Mobile_No" style="width:500px" /></br></br>
+
+<input type="text" id="txtEmail_ID" placeholder="Enter Email_ID" style="width:500px" /></br></br>
+
+<textarea typeof="text" id="txtAddress" placeholder="Address" style="width:500px"></textarea></br></br>
+
+<Lable for="city">SELECT CITY :- </Lable>
+<select name="City" id="txtCity" style="width:200px" ?>
+    <option value="Bhadraati">Bhadrawati</option>
+    <option value="Chandrapur">Chandrapur</option>
+    <option value="Ballarsha">Ballarsha</option>
+    <option value="Nagpur">Nagpur</option>
+    <option value="Pune">Pune</option>
+</select></br></br>
+
+<input type="button" value="Submit" class="btn btn-danger" style="width:500px" onclick="savereg()" />
+</br></br>
+
+
+<table id="tblContact" class=" table table-bordered">
+    <thead>
+        <tr>
+            <th> Srno </th>
+            <th> ID </th>
+            <th> Name </th>
+            <th> Mobile_No</th>
+            <th> Email_ID </th>
+            <th> Address </th>
+            <th> City </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
